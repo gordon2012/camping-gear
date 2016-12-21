@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 24px;
+}
+
+h3 {
+    padding: 8px 0;
+}
+
+.app {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content-wrap {
+    background: #A5D6A7;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background: #C8E6C9;
+    flex-basis: calc(900px - 64px);
+    padding: 32px;
+}

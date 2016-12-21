@@ -1,0 +1,19 @@
+{
+  "name": "camping-gear",
+  "version": "0.0.1",
+  "description": "An ecommerce store",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "surge public gordonscampinggear.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordon2012/camping-gear.git"
+  },
+  "author": "Gordon Doskas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gordon2012/camping-gear/issues"
+  },
+  "homepage": "https://github.com/gordon2012/camping-gear#readme"
+}
